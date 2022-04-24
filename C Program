@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum,sub,mul;
+    float divd,mod;
+    printf ("\n Enter the values a and b = ");
+    scanf("%d %d", &a , &b);
+    sum = a+b;
+    sub = a-b;
+    mul = a*b;
+    divd = a/b;
+    mod = a%b;
+    printf (" addition = %d\n subtraction = %d\n multiplication = %d\n division =%.1f\n mod =%.1f\n",sum,sub,mul,divd,mod);
+    return 0;
+}
